@@ -1,0 +1,10 @@
+console.log(1, true && 3);
+console.log(2, false && 3);
+console.log(3, true && 4 && "hello");
+console.log(4, true && 0 && "hello");
+console.log(5, true || 3);
+console.log(6, true || 3 || 4);
+console.log(7, true || false || 7);
+console.log(8, null || 2 || undefined);
+console.log(9, (1 && null && 2) >= 0);
+console.log(10, null || 2 && 3 || 4);

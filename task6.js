@@ -1,0 +1,15 @@
+console.log(5 > 4);
+console.log(10 >= "7");
+console.log("2" > "12");
+console.log("2" < "12");
+console.log("4" == 4);
+console.log("6" === 6);
+console.log("false" === false);
+console.log('8', 1 == true);
+console.log('9', 1 === true);
+console.log('10', "0" == false);
+console.log('11', "0" === false);
+console.log('12', "ёнанас" < "ёжик");
+console.log('13', "Ёнанас" === "ёжик");
+console.log('14', undefined == null);
+console.log('15', undefined === null);
