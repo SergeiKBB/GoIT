@@ -47,35 +47,35 @@ const result = {
 
 ## Пример 5
 
-Создайте родительский класс `Component`, который будет принимать в конструкторе параметр `element` (element это строка типа, которая хранит HTML тег), который вы должны присвоить свойству `element`.
-`element` - это объект, который будет иметь `style`, которое в свою очередь будет иметь свойство `display` (и подобные до тех которые есть в CSS).
+Создайте родительский класс `Component`, который будет принимать в конструкторе параметр `tag` (tag это строка, которая хранит HTML тег), который вы должны присвоить свойству `element`.
+`element` - это объект, который будет иметь свойства `tag` и `style`. `style` в свою очередь будет иметь свойство `display` (и подобные до тех которые есть в CSS).
 Класс `Component` будет иметь два метода `hide` и `show`, который будут менять свойство `display` нашего элемента.
 
 Создайте класс `Box`, который будет наследоваться от класса `Component`. Класс `Box` будет принимать в конструкторе объект с разными параметрами нашего элемента,
-такими как `size, color, element`. В конструкторе вы должны задать ширину и высоту нашего бокса, которая будет равна `size`. Так же вы должны установить `backgroung` для нашего бокса, который будет равен `color`.
+такими как `size, color, tag`. В конструкторе вы должны задать ширину и высоту нашего бокса, которая будет равна `size`. Так же вы должны установить `backgroung` для нашего бокса, который будет равен `color`.
 Создайте метод `getProps` в классе `Box`, который будет красиво логировать все свойства в консоль.
 
 Пример вызова:
 
 ```js
 const box1 = new Box({
-    element: '<div></div>',
+    tag: '<div></div>',
     size: 100,
     color: 'green'
 });
 
 box1.hide();
 
-box1.getProps(); // 'Element: <div></div>; Width: 100; Height: 100; Background: green; Display: none;'
+box1.getProps(); // 'Tag: <div></div>; Width: 100; Height: 100; Background: green; Display: none;'
 
 const box2 = new Box({
-    element: '<div></div>',
+    tag: '<div></div>',
     size: 50,
     color: 'red'
 });
 
 
-box2.getProps(); // 'Element: <div></div>; Width: 50; Height: 50; Background: red; Display: block;'
+box2.getProps(); // 'Tag: <div></div>; Width: 50; Height: 50; Background: red; Display: block;'
 ```
 
 ## Пример 6
