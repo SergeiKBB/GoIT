@@ -1,0 +1,87 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 500px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.card_focus {
+    background-color: red;
+}
+
+.card__delete {
+    border: 1px solid black;
+    background-color: orangered;
+    align-self: start;
+    display: inline-block;
+    margin-right: 4px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin: 4px;
+    flex-basis: 20%;
+    border: 1px solid black;
+}
+
+.block_active {
+    background-color: black;
+}
+
+.parent_reverse .block {
+    background-color: black;
+}
+
+.parent_reverse .block_active {
+    background-color: white;
+}
+
+.tree__sub-tree {
+    display: none;
+}
+
+.tree__sub-tree_open {
+    display: block;
+}
+
+.tree__item {
+    cursor: pointer;
+    width: 200px;
+}
+
+
+/*.block1 {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 500px;*/
+/*    height: 500px;*/
+/*    background-color: #000;*/
+/*}*/
+
+/*.block2 {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: white;*/
+/*}*/
+
+/*.block3 {*/
+/*    display: flex;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    background-color: red;*/
+/*}*/
