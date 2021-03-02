@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+}
+
+.grid {
+  background: #DDD;
+  max-width: 1200px;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  float: left;
+  width: 200px;
+  height: 100px;
+  padding: 5px;
+  background: #0D8;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.7);
+}
+
+.grid-item--width2 {
+  width: 400px;
+}
+
+.grid-item--height2 {
+  height: 200px;
+}
+
+.car-item {
+  /*width: 100%;*/
+  /*height: 100%;*/
+  display: none;
+}
