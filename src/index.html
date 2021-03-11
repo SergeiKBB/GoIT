@@ -12,22 +12,34 @@
       min-height: 100vh;
       margin: 0;
       display: flex;
-      align-items: center;
       justify-content: center;
     }
   </style>
 </head>
 <body>
-<div class="root"></div>
+<div class="root">
+  <div class="container">
+    <div class="row">
+      <div class="justify-content-center">
+        <h1 class="text-center">TODO List</h1>
+        <div class="mt-4">
+          <form class="js-todos-form">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-8 p-0">
+                <input type="text" id="inputTask" class="form-control js-todos-form-input">
+              </div>
+              <div class="col-auto">
+                <button class="btn btn-primary" type="submit">Add</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="row mt-3 js-todo-list-ref justify-content-center js-todos-wrapper">
 
-<form class="form">
-  <label for="login">Login:
-    <input type="email" name="login" id="login">
-  </label>
-  <label for="phoneNumber">Phone number:
-    <input type="text" name="phoneNumber" id="phoneNumber">
-  </label>
-  <button type="submit">Add to the storage</button>
-</form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
