@@ -1,0 +1,17 @@
+<div class="js-planets-list-wrapper">
+  <ul class="js-planets-list">
+    {{#each planets}}
+      <li class="js-planets-item">
+        <h3 class="planet-name">{{name}}</h3>
+        <p><b>Was created: </b>{{created}}</p>
+        <p><b>Population: </b>{{population}}</p>
+        <p><b>Diameter: </b>{{diameter}}</p>
+        <ul>
+          {{#each residents}}
+            <li><a href={{this}}>{{this}}</a></li>
+          {{/each}}
+        </ul>
+      </li>
+    {{/each}}
+  </ul>
+</div>
