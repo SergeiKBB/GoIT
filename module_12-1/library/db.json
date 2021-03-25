@@ -1,0 +1,31 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "first name",
+      "author": "first author",
+      "style": "horror",
+      "year": 1999
+    },
+    {
+      "id": 2,
+      "name": "updated name",
+      "style": "Roman",
+      "year": 2020
+    },
+    {
+      "id": 3,
+      "name": "third name",
+      "author": "third author",
+      "style": "horror",
+      "year": 1899
+    },
+    {
+      "id": 4,
+      "name": "another book",
+      "author": "Adam",
+      "style": "Roman",
+      "year": 2020
+    }
+  ]
+}
