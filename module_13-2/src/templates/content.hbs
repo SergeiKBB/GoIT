@@ -1,0 +1,49 @@
+<section>
+  <div class="row">
+    <div class="col">
+      <form class="js-user-form">
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="username" class="form-label">Name</label>
+            <input name="username" type="text" class="form-control" id="username" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Valid username is required.
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <label for="password" class="form-label">Password</label>
+            <input name="password" type="password" class="form-control" id="password" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Valid password is required.
+            </div>
+          </div>
+          <div class="col-12">
+            <label for="login" class="form-label">Login</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text">@</span>
+              <input name="login" type="text" class="form-control" id="login" placeholder="Login" required="">
+              <div class="invalid-feedback">
+                Your login is required.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <label for="type" class="form-label">User type</label>
+            <select name="type" class="form-select" id="type" required="">
+              <option value="">Choose...</option>
+              {{#each userTypes}}
+                <option value={{this}}>{{this}}</option>
+              {{/each}}
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid country.
+            </div>
+          </div>
+        </div>
+        <hr class="my-4">
+        <button class="w-100 btn btn-primary btn-lg" type="submit">Add User</button>
+      </form>
+    </div>
+    <div class="col"></div>
+  </div>
+</section>

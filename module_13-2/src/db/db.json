@@ -1,0 +1,572 @@
+{
+  "libraries": [
+    {
+      "id": 0,
+      "name": "Vernadskogo",
+      "address": "Kiev",
+      "books": [
+        {
+          "id": 0,
+          "name": "Garry Potter",
+          "year": 2005,
+          "author": "Joan Rouling"
+        },
+        {
+          "id": 1,
+          "name": "Airport",
+          "year": 1968,
+          "author": "Arthur Hailey"
+        },
+        {
+          "id": 2,
+          "name": "Career manager",
+          "year": 2014,
+          "author": "Lee Iacocca"
+        },
+        {
+          "id": 3,
+          "name": "How to make friends",
+          "year": 1986,
+          "autor": "Napoleon Hill"
+        }
+      ],
+      "users": [
+        {
+          "userName": "Oleg",
+          "login": "crow",
+          "password": 123,
+          "books": [
+            {
+              "date": 1619924827328,
+              "name": "Garry Potter"
+            }
+          ],
+          "type": "usual"
+        },
+        {
+          "userName": "Olga",
+          "login": "bird",
+          "password": 456,
+          "books": [],
+          "type": "usual"
+        }
+      ]
+    },
+    {
+      "id": "accb3ae6-e609-4519-9e3e-8624e89af383",
+      "name": "sada",
+      "address": "asd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "fa519b94-3ec3-4e4b-a53f-3cc0ab3736b4",
+      "name": "sada",
+      "address": "asdas",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "c1b3cd95-e988-4735-bc60-bc345d20b6b4",
+      "name": "sad",
+      "address": "asd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "392083a3-2a67-471a-affc-15f25652b8f6",
+      "name": "sadasd",
+      "address": "asdasdas",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "b253c7c0-67f7-4a11-bf80-9d38637972f3",
+      "name": "asdasd",
+      "address": "asdasd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "bfeb6a2d-181e-45f8-b9e7-e1d27fd36cf6",
+      "name": "sadas",
+      "address": "asdasd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "5284110d-19ad-4b28-af66-f34dd368edaa",
+      "name": "sadf",
+      "address": "fsdfs",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "128801e0-7c84-42ec-bb24-a6e41f659f82",
+      "name": "dfsdf",
+      "address": "sdfsd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "0eef6c3b-25bb-450b-85ca-531e828b874f",
+      "name": "sadas",
+      "address": "sdas",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "5104b5e4-2f4b-4f57-baaf-8d1ceee4c281",
+      "name": "dsfsd",
+      "address": "sdfsd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "fedb6e12-6d8d-45fa-a85e-274218e8b46d",
+      "name": "dfsdf",
+      "address": "sdfsd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "9d10e842-af2d-4429-a59b-45a67414c9d0",
+      "name": "asdas",
+      "address": "asdas",
+      "books": [],
+      "users": [
+        {
+          "name": "sadasdas"
+        }
+      ]
+    },
+    {
+      "id": "35a5b322-b6bd-42a6-b220-3c8725f33898",
+      "name": "dsfsdf",
+      "address": "sadasd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "9cc31316-6e62-4214-8e76-b3e2cafc3710",
+      "name": "asdasd",
+      "address": "asdasd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "97d6a96c-8488-43a5-b541-86bdf6bff641",
+      "name": "asdas",
+      "address": "dsdasd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "c6320de5-b0f6-4a37-a9b6-74dd5191efdd",
+      "name": "dfsdf",
+      "address": "dsfsd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "0a356d0e-a437-42a8-a252-06cae263b531",
+      "name": "asdasd",
+      "address": "asdasd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "4006fb28-de2a-428e-9d1a-01da35f75939",
+      "name": "sdasd",
+      "address": "asdas",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "6947e350-6569-4564-aa04-e4b2e8c3a267",
+      "name": "sadfsdf",
+      "address": "sdfsdf",
+      "books": [],
+      "users": [],
+      "url": "http://localhost:3000/libraries/6947e350-6569-4564-aa04-e4b2e8c3a267"
+    },
+    {
+      "id": "3ee02e18-7ffd-482e-8f24-f65da6e491e5",
+      "name": "dasdas",
+      "address": "asd",
+      "books": [],
+      "users": [],
+      "url": "http://localhost:3000/libraries/3ee02e18-7ffd-482e-8f24-f65da6e491e5",
+      "rentDays": {
+        "USUAL": 30,
+        "PREMIUM": 60,
+        "GOD": null
+      }
+    },
+    {
+      "id": "6a74b942-cfea-46f6-8fc9-9b24dd39aa13",
+      "name": "sdasdas",
+      "address": "dsaas",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "3e7bc689-908e-46bd-88e5-a4a8de46841f",
+      "name": "sadasd\\",
+      "address": "asdasda",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "ddd1f8c4-4b48-471f-a4e8-628dfb136994",
+      "name": "sdasda",
+      "address": "asdasd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "c4674246-b762-4e39-b4ee-caec38fd5817",
+      "name": "asdasd",
+      "address": "asdasdasd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "43a7840a-8eb9-4beb-9dcb-be1c4a76492f",
+      "name": "sdasd",
+      "address": "asdasd",
+      "books": [],
+      "users": [
+        null,
+        {
+          "id": "23ace3b5-5b8e-4425-a8ea-2525db2b6aa6",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "894e9560-ea63-4169-9112-312dd8e1564e",
+      "name": "fsdfs",
+      "address": "sdfsd",
+      "books": [],
+      "users": []
+    },
+    {
+      "id": "0f1b6cbf-3a6e-4bf2-91b3-24818ab40f2e",
+      "name": "sadfsd",
+      "address": "fsdf",
+      "books": [],
+      "users": [
+        null,
+        {
+          "id": "fe955f07-a669-42f2-9090-4e202912a3da",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "f84997dd-e545-4457-b714-b756b6a92743",
+      "name": "dasdas",
+      "address": "sadasd",
+      "books": [],
+      "users": [
+        {
+          "id": "7503f2cc-2109-4179-9dca-ee0e791e6c03",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "d99903eb-c698-42ef-b20a-e1025277b5c3",
+      "name": "sdfsdf",
+      "address": "dsfsdf",
+      "books": [],
+      "users": [
+        {
+          "id": "3d845431-752f-4b33-97d0-0dea1f430be9",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "6668a5a1-73ba-4c98-9054-80efd50b6643",
+      "name": "dsafasd",
+      "address": "asdas",
+      "books": [],
+      "users": [
+        {
+          "id": "0eb578df-9df3-4af7-9553-619c65cc5e94",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "f70c141f-56df-4933-b8ef-cda1b44e3567",
+      "name": "sdfsdf",
+      "address": "dfsdf",
+      "books": [],
+      "users": [
+        {
+          "id": "5b7bccbf-38dd-40ee-96c6-a8abbf4445aa",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "2d68677e-2c88-4a1c-8ecf-74f576a3f1be",
+      "name": "dasdas",
+      "address": "dasdasd",
+      "books": [],
+      "users": [
+        {
+          "id": "e413bf57-9563-463b-a0f3-90c02fda5f56",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "cd48a47e-d168-4669-ba67-36492b301028",
+      "name": "sdasd",
+      "address": "asdasdas",
+      "books": [],
+      "users": [
+        {
+          "id": "b907e182-12a0-4abe-8019-6853de260e8c",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "30abc60f-ccd5-4cd4-ba21-42d133ab279a",
+      "name": "sdasdas",
+      "address": "dasdas",
+      "books": [],
+      "users": [
+        {
+          "id": "e261292c-37c0-4e0f-bd72-7019b3d93e1c",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "214c73e6-8574-4b9b-9764-b7d0ff073f8c",
+      "name": "asdasd",
+      "address": "sadasd",
+      "books": [],
+      "users": [
+        {
+          "id": "26aecb85-3091-43c8-b93e-a7504de08006",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "57100fa9-e71d-4459-bc3c-2c062cc11452",
+      "name": "dsfsdf",
+      "address": "sdfsdf",
+      "books": [],
+      "users": [
+        {
+          "id": "42f938ff-cd71-4a15-aec3-3456f990665f",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "b661197f-12c9-41f8-9d9c-f89ce37760ea",
+      "name": "ывфыв",
+      "address": "фывфыв",
+      "books": [],
+      "users": [
+        {
+          "id": "161e2c1e-7da3-4b2c-b4c2-5b6c3d2444a4",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "02e6f01f-3149-4c9f-9cc9-73bce00db759",
+      "name": "ывпаыва",
+      "address": "ываыва",
+      "books": [],
+      "users": [
+        {
+          "id": "6e8f49ad-a2a2-47cb-8d12-888803edd4fa",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "d891d03f-458b-40a8-af15-5f0d9a6e39a4",
+      "name": "asdasd",
+      "address": "sadasd",
+      "books": [],
+      "users": [
+        {
+          "id": "2cf65965-17b7-4091-8304-9dd041776d97",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "f261d784-7e8c-4eaa-9d6a-745b87c9f575",
+      "name": "sdfsdf",
+      "address": "dsfsdf",
+      "books": [],
+      "users": [
+        {
+          "id": "2a29c21b-7a57-4c0a-9425-ce1a87067b10",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "8096bb15-0628-4b9e-b381-a1192aa38c56",
+      "name": "dfsdf",
+      "address": "sdfsdf",
+      "books": [],
+      "users": [
+        {
+          "id": "c5849c3b-3d50-410c-b339-fefb9af9899a",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "2af97643-2888-464f-a8d3-24566efa70a3",
+      "name": "dasdas",
+      "address": "dasdas",
+      "books": [],
+      "users": [
+        {
+          "id": "effc11a7-f4d2-4606-871d-229da9d02734",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "5230eb27-96ab-4945-bd22-57551f3c89bc",
+      "name": "asdasd",
+      "address": "asdas",
+      "books": [],
+      "users": [
+        {
+          "id": "397de066-dbae-4985-919d-63c2768af471",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "191829d3-f810-4b27-84a7-f6897a235c72",
+      "name": "asdas",
+      "address": "sadasd",
+      "books": [],
+      "users": [
+        {
+          "id": "eea434b2-8379-4bf4-aa70-ef73dca51b3f",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "d12f075f-365a-4dce-a30f-e2f7ed9ff13d",
+      "name": "asdasd",
+      "address": "sadasd",
+      "books": [],
+      "users": [
+        {
+          "id": "e247cf95-7302-4eb8-a9b3-f3cd93bc0381",
+          "username": "Serhii",
+          "login": "login",
+          "books": [],
+          "type": "USUAL"
+        },
+        {
+          "id": "fa945a97-e9bf-48c0-a871-a16d9806e9b7",
+          "login": "asdasd",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    },
+    {
+      "id": "f91ee642-11b3-4820-b03f-3816a86cd511",
+      "name": "asdasd",
+      "address": "asdasd",
+      "books": [],
+      "users": [
+        {
+          "id": "818b589d-f5c8-48f0-aeaa-00a22598c051",
+          "username": "dasdasd",
+          "login": "asdasd",
+          "books": [],
+          "type": "USUAL"
+        },
+        {
+          "id": "a0e7d2c5-c85a-47aa-9b3c-c43853d64c28",
+          "username": "Serhii",
+          "login": "serhii_dev",
+          "books": [],
+          "type": "USUAL"
+        }
+      ]
+    }
+  ]
+}

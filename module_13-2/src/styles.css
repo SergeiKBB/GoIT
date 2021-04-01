@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  /*
+   * CSS image reference example.
+   */
+}
+
+.main-wrapper {
+  height: 100vh;
+}
+
+.left-block {
+  background: dodgerblue;
+}
+
+.right-block {
+  background: indianred;
+}
+
+.left-block,
+.right-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.left-block:hover,
+.right-block:hover {
+  color: aliceblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
